@@ -1,0 +1,15 @@
+{
+  "author": "Gonzalo Ramirez gonziramirez2001@gmail.com",
+  "description": "Entrega de Proyecto Final de Desarrollo Web de Coderhouse",
+  "license": "MIT",
+  "name": "entrega-final",
+  "scripts": {
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "build:css": "node-sass --output-style compressed assets/scss/main.scss assets/css/estilos.css"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.4"
+  }
+}

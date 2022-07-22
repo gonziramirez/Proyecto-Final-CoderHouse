@@ -1,0 +1,22 @@
+.mainP {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/tenis.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.btnP {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: #FFF;
+  padding: 5px 10px;
+  margin: 0 auto;
+
+  &:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+  }
+}

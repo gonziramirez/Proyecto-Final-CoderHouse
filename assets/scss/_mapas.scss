@@ -1,0 +1,8 @@
+$color: (
+    primary: black,
+    secondary: white
+);
+
+strong {
+    color: map-get($color, primary)
+}

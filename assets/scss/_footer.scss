@@ -1,0 +1,11 @@
+@import 'variables';
+
+.footer-item {
+  color: $bordo;
+  font-size: 1.5rem;
+
+  &:hover {
+    color: #FFFF;
+    transition: 0.5s;
+  }
+}

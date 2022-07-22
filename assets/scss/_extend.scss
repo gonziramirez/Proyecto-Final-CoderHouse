@@ -1,0 +1,12 @@
+.centrar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.centrar-derecha-bordes {
+    @extend .centrar;
+    align-items: flex-end;
+    border: 1px solid black;
+    justify-content: right;
+}

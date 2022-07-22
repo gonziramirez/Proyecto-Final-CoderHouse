@@ -1,0 +1,71 @@
+:root {
+    --grisClaro: #393E46;
+    --grisOscuro: #222831;
+    --bordo: #FF3766;
+}
+
+body {
+
+    display: grid;
+
+    min-height: 100vh;
+
+    grid-template-rows: auto 1fr auto;
+
+}
+
+.bg-darkGrey {
+    background-color: var(--grisOscuro);
+}
+
+.bg-grey {
+    background-color: var(--grisClaro);
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.text-white {
+    color: #FFF;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(to top, #ff3766, #c03a82, #77417f, #3c3a60, #222831);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bg-gradient1 {
+    background-image: linear-gradient(to bottom, #ff3766, #c03a82, #77417f, #3c3a60, #222831);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+/* INICIO MENU HAMBURGUESA ICONO */
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: var(--bordo);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 55, 102, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* FIN MENU HAMBURGUESA ICONO */
+
+/* INICIO UBICACIÓN */
+
+.ubiGoogle {
+    font-size: 5rem;
+}
+
+/* FIN  UBICACIÓN */

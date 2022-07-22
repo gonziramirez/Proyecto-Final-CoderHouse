@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <title>Valparaiso Tenis Fútbol - Turnos</title>
+</head>
+
+<body class="bg-gradient">
+    <header class="bg-darkGrey">
+        <!-- NAV -->
+        <div class="container justify-content-around">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand font-weight-bold logo" href="index.html">VALPA</a>
+                <button button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse justify-content-end text-center" id="navbarsExample04">
+                    <!-- ITEMS NAV -->
+                    <a class="item-nav nav-link" href="index.html">Inicio</a>
+                    <a class="item-nav nav-link" href="servicios.html">Servicios</a>
+                    <a class="item-nav nav-link" href="ubicacion.html">Ubicación</a>
+                    <a class="item-nav nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-item btnNav pr-1 pl-1 nav-link" href="turnos.html">RESERVAR TURNO</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <form action="" class="form-contacto d-flex flex-column">
+        <h1 class="text-white text-center">SOLICITAR TURNO</h1>
+        <h4 class="text-white text-center">Datos Personales</h4>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre"
+            class="bg-transparent border-white text-white rounded mb-1 p-1" required>
+        <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido"
+            class="bg-transparent border-white text-white rounded mb-1 p-1" required>
+        <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono"
+            class="bg-transparent border-white text-white rounded mb-1 p-1" required>
+        <label class="text-white" for="servicio">Elegí tu servicio</label>
+        <select class="servicio text-white bg-transparent border-white rounded mb-1 p-1" name="sexo" id="sexo">
+            <option class="servicios bg-darkGrey" value="tenis">Tenis</option>
+            <option class="servicios bg-darkGrey" value="futbol">Fútbol</option>
+            <option class="servicios bg-darkGrey" value="cumpleaños">Cumeplaños</option>
+        </select>
+        <input class="bg-transparent text-white rounded border-white mb-1 p-1" type="datetime-local" name="horario"
+            id="horario" required>
+        <input class="bg-transparent text-white rounded border-white mb-1 p-1" type="datetime-local" name="horario"
+            id="horario" required>
+        <textarea name="" id="" cols="20" rows="10" class="bg-transparent border-white text-white rounded"
+            required></textarea>
+        <p class="text-white"><input type="checkbox" id="terminos" required>Estoy de acuerdo con los <a href="">Terminos
+                y Condiciones</a></p>
+        <button class="btnC">CONSULTAR TURNO</button>
+    </form>
+    <footer>
+        <div class="container-fluid bg-darkGrey">
+            <div class="row d-flex flex-column align-items-center justify-content-center">
+                <ul class="d-flex list-unstyled">
+                    <!-- Iconos Footer -->
+                    <li class="p-3"><a class="footer-item"
+                            href="https://www.google.com/maps?ll=-31.465105,-64.187851&z=16&t=m&hl=es-419&gl=AR&mapclient=embed&cid=10344144658133045342"><i
+                                class="fa fa-map-marker text-decoration-none"></i></a></li> <!-- ubicacion -->
+                    <li class="p-3"><a class="footer-item" href="mailto:valparaisotenisfutbol@gmail.com"><i
+                                class="fa fa-envelope-o"></i></a></li><!-- email -->
+                    <li class="p-3"><a class="footer-item" href="https://api.whatsapp.com/send/?phone=5493513421142"><i
+                                class="fa fa-whatsapp"></i></a></li><!-- whatsapp -->
+                    <li class="p-3"><a class="footer-item" href="https://www.instagram.com/tenisfutbol.valparaiso/"><i
+                                class="fa fa-instagram"></i></a></li><!-- instagram -->
+                </ul>
+                <!-- Copyright Footer -->
+                <p class="text-center text-light">Todos los derechos reservados &copy; - Valparaiso Tenis Fútbol 2022
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- SCRIPTS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap/js/popper.min.js"></script>
+</body>
+
+</html>

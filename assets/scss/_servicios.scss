@@ -1,0 +1,20 @@
+#servicios {
+    background-image: linear-gradient(to bottom, #ff3766, #c03a82, #77417f, #3c3a60, #222831);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.btnS {
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    margin: 0 auto;
+    padding: 5px 10px;
+
+    &:hover {
+        background-color: #FFF;
+        text-decoration: none;
+        color: #000;
+        transition: 0.5s;
+    }
+}

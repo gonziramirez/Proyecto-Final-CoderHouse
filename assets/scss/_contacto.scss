@@ -1,0 +1,24 @@
+.form-contacto {
+  margin: 0 auto;
+  width: 25rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.btnC {
+  background: transparent;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  color: #FFF;
+  padding: 0.3rem;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #FFF;
+    border: 1px solid black;
+    color: black;
+    transition: 0.5s;
+  }
+}

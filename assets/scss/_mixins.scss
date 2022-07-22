@@ -1,0 +1,10 @@
+@mixin logo($color, $font-size, $font-family, $font-weight) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+    font-weight: $font-weight;
+}
+
+.logo-principal {
+    @include logo(#223388, 2rem, Roboto, bold)
+}

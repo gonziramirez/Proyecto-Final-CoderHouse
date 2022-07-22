@@ -1,0 +1,36 @@
+@import 'variables';
+
+.logo {
+  color: $bordo;
+  padding: 5px 10px;
+
+  &:hover {
+    color: #FFFF;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+}
+
+.btnNav {
+  border: 2px solid #FFF;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+
+  &:hover {
+    background-color: #FFF;
+    color: black;
+    transition: 0.5s;
+  }
+}
+
+.item-nav {
+  color: #FFF;
+
+  &:hover {
+    color: $bordo;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+}
